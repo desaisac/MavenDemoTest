@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="TestMaven.NewTest" time="13.908" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="TestMaven.NewTest" time="25.447" errors="0" skipped="0">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="SmokePack"/>
@@ -28,8 +28,8 @@
     <property name="PROMPT" value="$P$G"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="SmokePack"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/SmokePack/3/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#3"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/SmokePack/4/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#4"/>
     <property name="OneDrive" value="C:\Users\SACHIN\OneDrive"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
     <property name="LOCALAPPDATA" value="C:\Users\SACHIN\AppData\Local"/>
@@ -40,7 +40,7 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="NODE_NAME" value="window_Slave1"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="3"/>
+    <property name="BUILD_ID" value="4"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -56,7 +56,7 @@
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_221\jre"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="10.0"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/SmokePack/3/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/SmokePack/4/display/redirect"/>
     <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
     <property name="configsetroot" value="C:\WINDOWS\ConfigSetRoot"/>
     <property name="TMP" value="C:\Users\SACHIN\AppData\Local\Temp"/>
@@ -79,7 +79,7 @@
     <property name="POM_GROUPID" value="EthansMAVENDemo"/>
     <property name="user.home" value="C:\Users\SACHIN"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-SmokePack-3"/>
+    <property name="BUILD_TAG" value="jenkins-SmokePack-4"/>
     <property name="JENKINS_SERVER_COOKIE" value="5a2c60b850358f71"/>
     <property name="=E:" value="E:\SELENIUM AUTOMATION\JENKINSOFT"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
@@ -94,7 +94,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="E:\SELENIUM AUTOMATION\apache-maven-3.6.3-bin\apache-maven-3.6.3"/>
     <property name="java.class.path" value="E:\SELENIUM AUTOMATION\JENKINSOFT\maven35-agent.jar;E:\SELENIUM AUTOMATION\apache-maven-3.6.3-bin\apache-maven-3.6.3\boot\plexus-classworlds-2.6.0.jar;E:\SELENIUM AUTOMATION\apache-maven-3.6.3-bin\apache-maven-3.6.3/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main E:\SELENIUM AUTOMATION\apache-maven-3.6.3-bin\apache-maven-3.6.3 E:\SELENIUM AUTOMATION\JENKINSOFT\agent.jar E:\SELENIUM AUTOMATION\JENKINSOFT\maven35-interceptor.jar E:\SELENIUM AUTOMATION\JENKINSOFT\maven3-interceptor-commons.jar 64268"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main E:\SELENIUM AUTOMATION\apache-maven-3.6.3-bin\apache-maven-3.6.3 E:\SELENIUM AUTOMATION\JENKINSOFT\agent.jar E:\SELENIUM AUTOMATION\JENKINSOFT\maven35-interceptor.jar E:\SELENIUM AUTOMATION\JENKINSOFT\maven3-interceptor-commons.jar 49549"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.8.0_221/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Users\SACHIN\AppData\Local\Microsoft\WindowsApps;"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
@@ -110,7 +110,7 @@
     <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
     <property name="PATH+MAVEN" value="E:\SELENIUM AUTOMATION\apache-maven-3.6.3-bin\apache-maven-3.6.3/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/SmokePack/3/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/SmokePack/4/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
@@ -124,11 +124,13 @@
 "/>
     <property name="MAVEN_HOME" value="E:\SELENIUM AUTOMATION\apache-maven-3.6.3-bin\apache-maven-3.6.3"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="3"/>
+    <property name="BUILD_NUMBER" value="4"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="PROCESSOR_REVISION" value="8e0a"/>
+    <property name="GIT_BRANCH" value="origin/master"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
     <property name="windir" value="C:\WINDOWS"/>
+    <property name="GIT_COMMIT" value="89c1aa30ae97653ce98460f67bf955dba1b0419f"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="SystemDrive" value="C:"/>
     <property name="maven3.interceptor" value="E:\SELENIUM AUTOMATION\JENKINSOFT\maven35-interceptor.jar"/>
@@ -137,6 +139,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
+    <property name="GIT_URL" value="https://github.com/desaisac/MavenDemoTest.git"/>
   </properties>
-  <testcase classname="TestMaven.NewTest" name="f" time="13.908"/>
+  <testcase classname="TestMaven.NewTest" name="f" time="25.447"/>
 </testsuite>
